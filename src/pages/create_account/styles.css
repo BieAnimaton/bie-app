@@ -1,0 +1,40 @@
+.create-account {
+    margin: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: -280px;
+}
+
+.content-field h1 {
+    padding: 20px;
+    padding-left: 30px;
+    background-color: white;
+    color: #717171;
+    line-height: 25px;
+}
+
+.create-account input {
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.create-account #submit-btn {
+    margin-top: 40px;
+}
+
+.create-account #date-field {
+    margin-top: 30px;
+}
+
+.create-account .fas {
+    width: 30px;
+    height: 15px;
+    font-size: 50px;
+    margin-left: 350px;
+}

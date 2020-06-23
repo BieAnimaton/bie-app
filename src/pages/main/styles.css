@@ -1,0 +1,13 @@
+.article h1 {
+    padding: 20px;
+    padding-left: 30px;
+    background: #fff;
+    color: #717171;
+    line-height: 25px;
+}
+
+.article .info p{
+    margin: 20px;
+    color: #717171;
+    line-height: 25px;
+}
