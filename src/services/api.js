@@ -1,5 +1,5 @@
 import axios from 'axios';
 
-const api = axios.create({ baseURL: 'http://192.168.15.10:5656/api' })
+const api = axios.create({ baseURL: 'https://bie-site-backend.herokuapp.com/api' })
 
 export default api;
