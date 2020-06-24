@@ -6,20 +6,18 @@ import './styles.css';
 export default class Account extends Component {
     state = {
         pessoas: [],
-        productInfo: [],
-        page: 1,
     };
 
     componentDidMount() {
         this.loadPessoas();
     };
 
-    loadPessoas = async (page = 1) => {
-        const response = await api.get(`/pessoas?page=${page}`);
+    loadPessoas = async () => {
+        const response = await api.get(`/pessoas`);
 
         const {docs, ...productInfo } = response.data;
 
-        this.setState({ pessoas: docs, productInfo, page })
+        this.setState({ pessoas: docs })
     };
 
     render() {
