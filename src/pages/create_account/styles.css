@@ -1,8 +1,9 @@
 .create-account {
-    margin: 40px;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin: auto;
+    margin-top: 40px;
     padding: 20px;
+    width: 500px;
+    height: 550px;
     display: flex;
     justify-content: center;
     background-color: #ffffff;
@@ -18,23 +19,47 @@
     line-height: 25px;
 }
 
+.create-account label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #544d8a;
+}
+
 .create-account input {
     width: 200px;
     padding: 5px;
     margin: 10px;
 }
 
-.create-account #submit-btn {
-    margin-top: 40px;
+.create-account #nome, #email, #senha, #nascimento {
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    width: 300px;
 }
 
-.create-account #date-field {
-    margin-top: 30px;
+form {
+    text-align: center;
+}
+
+.create-account #submit-btn {
+    margin-top: 80px;
+    width: 200px;
+    color: #544d8a;
+    background: none;
+    border-color: #544d8a;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .create-account .fas {
-    width: 30px;
-    height: 15px;
-    font-size: 50px;
-    margin-left: 350px;
+    font-size: 80px;
+    margin-left: 80px;
 }
+
+.create-account hr {
+    border: 1px solid #717171;
+    margin-top: 20px;
+ }
