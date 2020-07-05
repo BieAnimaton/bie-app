@@ -24,7 +24,7 @@
 
 .account-field .info {
     background-color: white;
-    margin: 30px;
+    margin: 50px;
     padding: 20px;
     border-radius: 5px;
 }
@@ -33,4 +33,29 @@
     line-height: 25px;
     color: #717171;
     margin: 10px;
+}
+
+.account-field .info button {
+    margin: auto;
+    margin-top: 30px;
+    width: 220px;
+    height: 30px;
+    color: #544d8a;
+    background: none;
+    border-color: #544d8a;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.account-field .info button:hover {
+    color: white;
+    background: red;
+    border-color: white;
+}
+
+.account-field .info button:active {
+    color: black;
+    background: red;
+    border-color: white;
 }

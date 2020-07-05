@@ -52,6 +52,19 @@ form {
     border-color: #544d8a;
     font-size: 20px;
     font-weight: bolder;
+    border-radius: 5px;
+}
+
+.create-account #submit-btn:hover {
+    color: white;
+    background: #544d8a;
+    border-color: white;
+}
+
+.create-account #submit-btn:active {
+    color: black;
+    background: #544d8a;
+    border-color: white;
 }
 
 .create-account .fas {
