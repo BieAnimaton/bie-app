@@ -36,26 +36,48 @@
 }
 
 .account-field .info button {
-    margin: auto;
     margin-top: 30px;
-    width: 220px;
-    height: 30px;
-    color: #544d8a;
-    background: none;
-    border-color: #544d8a;
+    margin-right: 30px;
+    padding: 8px;
+    width: 210px;
     font-size: 18px;
     font-weight: bolder;
     border-radius: 5px;
 }
 
-.account-field .info button:hover {
+.account-field .info .delete {
+    color: #544d8a;
+    background: none;
+    border-color: #544d8a;
+}
+
+.account-field .info .delete:hover {
     color: white;
+    background: rgb(179, 0, 0);
+    border-color: white;
+}
+
+.account-field .info .delete:active {
+    color: black;
     background: red;
     border-color: white;
 }
 
-.account-field .info button:active {
+
+.account-field .info .edit {
+    color: #544d8a;
+    background: none;
+    border-color: #544d8a;
+}
+
+.account-field .info .edit:hover {
+    color: white;
+    background: green;
+    border-color: white;
+}
+
+.account-field .info .edit:active {
     color: black;
-    background: red;
+    background: rgb(21, 221, 21);
     border-color: white;
 }

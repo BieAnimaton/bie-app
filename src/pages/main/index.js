@@ -1,17 +1,30 @@
 import React, { Component } from 'react';
 
+import reactjs from '../../images/reactjs.png';
+import nodejs from '../../images/nodejs.png';
+import mondodb from '../../images/mongodb.png';
+import css from '../../images/css.png';
+
 import './styles.css';
 
 export default class Main extends Component {
-
+    
     render() {
         return (
             <div className="article">
-                <h1>Olá !!</h1>
+                <h1>Bem-vindo, usuário!</h1>
                 <div className="info">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Este é um site de treinamento criado por Bie Animation.</p>
+                    <p>O objetivo do site é permitir a criação de contas novas no banco de dados, a realização de login / logoff, lida de algumas postagens e alteraçaõ de configurações.</p>
+                    <hr></hr>
+                    <p>As tenologias usadas para a construção e organização do site foram as seguintes:</p>
+                    <div className="tech-photos">
+                        <img src={reactjs} width='180px'/>
+                        <img src={nodejs} width='150px' height='90'/>
+                        <img src={mondodb} width='240px'/>
+                        <img src={css} width='80px'/>
+                    </div>
+                    <hr></hr>
                 </div>
             </div>
         );

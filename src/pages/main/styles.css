@@ -9,5 +9,20 @@
 .article .info p{
     margin: 20px;
     color: #717171;
+    font-size: 20px;
     line-height: 25px;
 }
+
+.article hr {
+    border: 1px solid #717171;
+    margin-top: 20px;
+    margin: 20px;
+ }
+
+ .article .tech-photos {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     margin-top: 60px;
+ }

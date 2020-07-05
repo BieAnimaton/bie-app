@@ -30,12 +30,12 @@ export default class Account extends Component {
                     <div className="info">
                         <h2>{pessoa.nome}</h2>
                         <hr></hr>
-                        <p>ID: {pessoa._id}</p>
                         <p>Email: {pessoa.email}</p>
                         <p>Senha: {pessoa.senha}</p>
                         <p>Nascimento: {pessoa.nascimento}</p>
                         <p>Criado em: {pessoa.criadoEm}</p>
-                        <button>Excluir</button>
+                        <button className="edit">Editar</button>
+                        <button className="delete">Excluir</button>
                     </div>
                 ))}
 
